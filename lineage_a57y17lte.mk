@@ -15,7 +15,7 @@
 #
 
 # Inherit device configuration
-$(call inherit-product, device/samsung/a7y17lte/device.mk)
+$(call inherit-product, device/samsung/a57y17lte/device.mk)
 
 # Inherit from the 64 bit configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
@@ -33,8 +33,8 @@ TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := lineage_a7y17lte
-PRODUCT_DEVICE := a7y17lte
+PRODUCT_NAME := lineage_a57y17lte
+PRODUCT_DEVICE := a57y17lte
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-A720F
 PRODUCT_MANUFACTURER := samsung

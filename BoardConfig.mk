@@ -16,7 +16,7 @@
 
 include device/samsung/universal7880-common/BoardConfigCommon.mk
 
-LOCAL_PATH := device/samsung/a7y17lte
+LOCAL_PATH := device/samsung/a57y17lte
 
 # Include path
 TARGET_SPECIFIC_HEADER_PATH += $(LOCAL_PATH)/include
@@ -25,4 +25,4 @@ TARGET_SPECIFIC_HEADER_PATH += $(LOCAL_PATH)/include
 TARGET_KERNEL_CONFIG := lineage-a7y17lte_defconfig
 
 # OTA
-TARGET_OTA_ASSERT_DEVICE := a7y17lte,a7y17ltexx
+TARGET_OTA_ASSERT_DEVICE := a5y17lte,a5y17ltecan,a5y17ltexx,a7y17lte,a7y17ltexx
