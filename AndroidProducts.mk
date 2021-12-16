@@ -14,4 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_a7y17lte.mk
+    $(LOCAL_DIR)/dot_a7y17lte.mk
+
+COMMON_LUNCH_CHOICES := \
+    dot_a7y17lte-user \
+    dot_a7y17lte-userdebug \
+    dot_a7y17lte-eng
