@@ -24,7 +24,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/kasumi/config/common_full_phone.mk)
 
 # Boot animation
 TARGET_BOOTANIMATION_PRELOAD := true
@@ -33,9 +33,14 @@ TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := lineage_a7y17lte
+PRODUCT_NAME := kasumi_a7y17lte
 PRODUCT_DEVICE := a7y17lte
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-A720F
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
+
+# Kasumi specific flags
+TARGET_BOOT_ANIMATION_RES := 1080
+KASUMI_SHIP_ADAWAY := true
+TARGET_FACE_UNLOCK_SUPPORTED := true

@@ -14,4 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_a7y17lte.mk
+    $(LOCAL_DIR)/kasumi_a7y17lte.mk
+
+COMMON_LUNCH_CHOICES := \
+    kasumi_a7y17lte-user \
+    kasumi_a7y17lte-userdebug \
+    kasumi_a7y17lte-eng
