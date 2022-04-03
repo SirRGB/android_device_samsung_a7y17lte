@@ -13,5 +13,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_a7y17lte.mk
+    $(LOCAL_DIR)/carbon_a7y17lte.mk
+
+COMMON_LUNCH_CHOICES := \
+    carbon_a7y17lte-user \
+    carbon_a7y17lte-userdebug \
+    carbon_a7y17lte-eng
