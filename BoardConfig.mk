@@ -22,7 +22,7 @@ LOCAL_PATH := device/samsung/a57y17lte
 TARGET_SPECIFIC_HEADER_PATH += $(LOCAL_PATH)/include
 
 # Kernel
-TARGET_KERNEL_CONFIG := lineage-a7y17lte_defconfig
+TARGET_KERNEL_CONFIG := lineage-a5y17lte_defconfig
 
 # OTA
 TARGET_OTA_ASSERT_DEVICE := a5y17lte,a5y17ltecan,a5y17ltexx,a7y17lte,a7y17ltexx
